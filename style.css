@@ -95,6 +95,8 @@ a {
     display: flex;
     flex-flow: column nowrap;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .random-info h1 {
