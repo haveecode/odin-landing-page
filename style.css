@@ -86,6 +86,7 @@ a {
     font-size: 18px;
     padding: 10px 15px;
     border-radius: 12px;
+    border: 0;
 }
 
 /* Random Info */
@@ -101,6 +102,7 @@ a {
 
 .random-info h1 {
     padding-bottom: 30px;
+    font-size: 36px;
 }
 
 .card-placeholder {
@@ -122,7 +124,8 @@ a {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    color: gray
 }
 
 /* Quote Section */
@@ -146,4 +149,40 @@ a {
 
 .author {
     align-self: flex-end;
+}
+
+.call-to-action {
+    height: 200px;
+    margin: 100px 150px 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Call To Action Section */
+.call-to-action p {
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    width: 150px;
+    padding: 10px 15px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    height: 70px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
